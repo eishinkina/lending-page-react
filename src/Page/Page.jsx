@@ -1,8 +1,7 @@
-import React from "react";
+import React, { useState } from "react";
 import Header from "../Header/Header";
-import Banner from "../Banner/Banner"
+import Banner from "../Banner/Banner";
 import Benefits from "../Benefits/Benefits";
-
 
 const Page = () => {
   return (
@@ -13,6 +12,7 @@ const Page = () => {
           src="/images/Ellipse 23.png"
           alt="Абстрактное изображение"
         />
+
         <Header />
         <Banner />
         <Benefits />

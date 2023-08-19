@@ -3,7 +3,7 @@ import React from "react";
 const Benefits = () => {
   return (
     <>
-      <section className="benefits">
+      <section className="benefits" id="Benefits">
         <div className="benefits__container">
           <div className="benefits__images">
             <img

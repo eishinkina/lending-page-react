@@ -8,18 +8,20 @@ body {
   width: 100%;
   color: white;
   height: 2518px;
+  // overflow: hidden;
 }
 
 .page {
   background-color: #1d2532;
   height: 1030px;
   position: relative;
-  //   margin-bottom: 250px;
 
   .header__elipse {
     position: absolute;
-    top: -300px;
-    left: -50px;
+    width: 414.9px;
+    height: 414.9px;
+    top: -50px;
+    left: 30px;
   }
 }
 
@@ -61,6 +63,10 @@ header {
       color: #cecece;
       text-decoration: none;
     }
+    .header__link1:hover {
+      color: #c3f33b;
+      cursor: pointer;
+    }
     .header__link2 {
       width: 214px;
       height: 28px;
@@ -70,14 +76,34 @@ header {
       color: #cecece;
       text-decoration: none;
     }
+    .header__link2:hover {
+      color: #c3f33b;
+      cursor: pointer;
+    }
     .header__btn {
       width: 175px;
       height: 51px;
       border-radius: 15px;
       border: 1px solid #ffffff;
-      padding: 16px 22px 16px 22px;
+      padding: 16px 22px;
       background-color: #1d2532;
       color: white;
+      transition: border-color 0.3s, background-color 0.3s;
+    }
+
+    .header__btn:hover,
+    .header__btn.active {
+      border-color: #c3f33b;
+      color: #c3f33b;
+      background-color: #36393c;
+      background-size: 105% 105%;
+      background-position: center;
+      background-image: radial-gradient(
+        circle,
+        transparent 94%,
+        rgba(0, 0, 0, 0.1) 65%
+      );
+      cursor: pointer;
     }
   }
 }
@@ -124,14 +150,19 @@ header {
     width: 331px;
     height: 66px;
     border-radius: 20px;
-    padding: 20px 30px 20px 30px;
+    padding: 20px 30px;
     background: linear-gradient(to right, #1dd844 0%, #cbf62e 100%);
     border: none;
-    padding: 10px 20px;
     color: black;
     cursor: pointer;
     font-weight: 400;
     font-size: 20px;
+    transition: box-shadow 0.3s, cursor 0.3s;
+  }
+
+  .main__btn:hover {
+    box-shadow: 0 0 20px rgba(203, 246, 46, 0.8); /* Увеличиваем радиус размытия и насыщенность цвета */
+    cursor: pointer;
   }
 }
 
@@ -195,13 +226,17 @@ header {
 
     .benefits__image--27 {
       position: absolute;
-      top: 650px;
-      left: -150px;
+      width: 440.01px;
+      height: 440.01px;
+      top: 880px;
+      left: 2px;
     }
     .benefits__image--223 {
       position: absolute;
-      top: -200px;
-      left: 900px;
+      width: 440.01px;
+      height: 440.01px;
+      top: 1px;
+      left: 1074px;
     }
     .benefits__image--126 {
       position: absolute;
