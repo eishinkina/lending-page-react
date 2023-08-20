@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/lending-page-react/static/css/main.d8c2dabe.css",
+    "main.js": "/lending-page-react/static/js/main.cc760c2f.js",
+    "index.html": "/lending-page-react/index.html",
+    "main.d8c2dabe.css.map": "/lending-page-react/static/css/main.d8c2dabe.css.map",
+    "main.cc760c2f.js.map": "/lending-page-react/static/js/main.cc760c2f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d8c2dabe.css",
+    "static/js/main.cc760c2f.js"
+  ]
+}
