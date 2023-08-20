@@ -8,27 +8,27 @@ const Benefits = () => {
           <div className="benefits__images">
             <img
               src="/images/Ellipse 27.png"
-              className="benefits__image--27"
+              className="benefits__image27"
               alt="Ellipse 27"
             />
             <img
               src="/images/Ellipse 223.png"
-              className="benefits__image--223"
+              className="benefits__image223"
               alt="Ellipse 223"
             />
             <img
               src="/images/Ellipse 126.png"
-              className="benefits__image--126"
+              className="benefits__image126"
               alt="Ellipse 126"
             />
             <img
               src="/images/Ellipse 266.png"
-              className="benefits__image--266"
+              className="benefits__image266"
               alt="Ellipse 266"
             />
             <img
               src="/images/Ellipse 125.png"
-              className="benefits__image--125"
+              className="benefits__image125"
               alt="Ellipse 125"
             />
           </div>
@@ -38,8 +38,8 @@ const Benefits = () => {
           <div className="benefits__cards">
             <div className="cards__wrapper">
               <div className="benefits__shadows"></div>
-              <div className="benefits-card">
-                <div className="card__img-wrapper">
+              <div className="benefits__card">
+                <div className="card__imgWrapper">
                   <img
                     className="card__img"
                     src="/images/Group 138.png"
@@ -54,7 +54,7 @@ const Benefits = () => {
             </div>
             <div className="cards__wrapper">
               <div className="benefits__shadows"></div>
-              <div className="benefits-card">
+              <div className="benefits__card">
                 <img
                   className="card__img"
                   src="/images/Group 3290.png"
@@ -68,7 +68,7 @@ const Benefits = () => {
             </div>
             <div className="cards__wrapper">
               <div className="benefits__shadows"></div>
-              <div className="benefits-card">
+              <div className="benefits__card">
                 <img className="card__img" src="/images/Group 140.png" alt="" />
                 <p className="benefits__text3">
                   Построишь план <br /> по быстрому приумножению заработанных
@@ -77,7 +77,7 @@ const Benefits = () => {
               </div>
             </div>
             <div className="cards__wrapper">
-              <div className="benefits-card">
+              <div className="benefits__card">
                 <img className="card__img" src="/images/Group 142.png" alt="" />
                 <p className="benefits__text4">
                   Узнаешь кто такие холдеры и флипперы
