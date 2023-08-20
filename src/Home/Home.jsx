@@ -1,14 +1,15 @@
-import React, { useState } from "react";
+import React from "react";
 import Header from "../Header/Header";
 import Banner from "../Banner/Banner";
 import Benefits from "../Benefits/Benefits";
+import cl from "./Home.module.scss";
 
-const Page = () => {
+const Home = () => {
   return (
     <div>
-      <div className="page">
+      <div className={cl.home}>
         <img
-          className="header__elipse"
+          className={cl.header__elipse}
           src="/images/Ellipse 23.png"
           alt="Абстрактное изображение"
         />
@@ -21,4 +22,4 @@ const Page = () => {
   );
 };
 
-export default Page;
+export default Home;
