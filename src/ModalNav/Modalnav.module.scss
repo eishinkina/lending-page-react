@@ -1,0 +1,94 @@
+.modalNav {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  display: none;
+  z-index: 1000;
+  background: rgba(48, 9, 97, 0.3);
+  backdrop-filter: blur(5px);
+}
+.modalNavContent {
+  width: 395px;
+  height: 400px;
+  background: #293344;
+  border-radius: 0px 0px 0px 30px;
+
+}
+.modalNav.active {
+  display: flex;
+  justify-content: center;
+}
+.headerNav {
+  display: flex;
+  flex-direction: row; 
+  width: 320px;
+  height: 45px;
+  padding-top: 20px;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+.headerNavLogo {
+  display: flex;
+  flex-direction: row; 
+  align-items: center; 
+}
+.header__logo {
+  display: flex;
+  align-items: center; 
+}
+.header__close {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+ }
+.logo {
+    padding-right: 10px;
+}
+
+.modalLink {
+  display: flex;
+  flex-direction: column;
+  width: 214px;
+  height: 300px;
+
+  .navLink1 {
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-bottom: 30px;
+    width: 92px;
+    height: 28px;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 27.6px;
+    color: #cecece;
+    text-decoration: none;
+  }
+  .navLink2 {
+    width: 214px;
+    height: 28px;
+    padding-left: 40px;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 27.6px;
+    color: #cecece;
+    text-decoration: none;
+
+  }
+  .navBtn {
+    margin-left: 40px;
+    margin-top: auto;
+    width: 175px;
+    height: 51px;
+    border-radius: 15px;
+    border: 1px solid #FFFFFF;
+    padding: 16px, 22px, 16px, 22px;
+    background-color: #293344;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19.36px;
+
+  }
+}

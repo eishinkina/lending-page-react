@@ -1,9 +1,11 @@
 import React, { useState } from "react";
 import MyModal from "../Modal/MyModal";
 import cl from "./Header.module.scss";
+import ModalNav from "../ModalNav/ModalNav";
 
 const Header = () => {
   const [modalVisible, setModalVisible] = useState(false);
+  const [navVisible, setNavVisible] = useState(false)
 
   const handleScroll = (event) => {
     event.preventDefault();
@@ -48,7 +50,8 @@ const Header = () => {
             Личный кабинет
           </button>
         </nav>
-        <div className={cl.header__menuButton}><img src="/images/Frame 275.png" alt="" /></div>
+        <div onClick={() => setNavVisible(true)} className={cl.header__menuButton}><img src="/images/Frame 275.png" alt="" /></div>
+        <ModalNav visible={navVisible} setVisible={setNavVisible}/>
       </header>
     </>
   );
