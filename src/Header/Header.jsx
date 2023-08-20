@@ -27,7 +27,7 @@ const Header = () => {
         <div className={cl.header__logo}>
           <img
             className={cl.logo}
-            src="/images/Ellipse 26.png"
+            src="./images/Ellipse 26.png"
             alt="Логотип NFT"
           />
           <h1 className={cl.header__name}>NFT</h1>
@@ -50,7 +50,7 @@ const Header = () => {
             Личный кабинет
           </button>
         </nav>
-        <div onClick={() => setNavVisible(true)} className={cl.header__menuButton}><img src="/images/Frame 275.png" alt="" /></div>
+        <div onClick={() => setNavVisible(true)} className={cl.header__menuButton}><img src="./images/Frame 275.png" alt="" /></div>
         <ModalNav visible={navVisible} setVisible={setNavVisible}/>
       </header>
     </>

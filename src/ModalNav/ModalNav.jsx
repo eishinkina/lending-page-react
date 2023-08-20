@@ -15,14 +15,14 @@ const ModalNav = ({visible, setVisible}) => {
             <div className={cl.header__logo}>
               <img
                 className={cl.logo}
-                src="/images/Ellipse 26.png"
+                src="./images/Ellipse 26.png"
                 alt="Логотип NFT"
               />
               <h1 className={cl.header__name}>NFT</h1>
             </div>
           </div>
           <div className={cl.header__close}>
-            <img src="/images/Outline24.png" alt=""  onClick={() => setVisible(false)}  />
+            <img src="./images/Outline24.png" alt=""  onClick={() => setVisible(false)}  />
           </div>
         </div>
         <div className={cl.modalLink}>

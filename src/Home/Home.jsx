@@ -10,7 +10,7 @@ const Home = () => {
       <div className={cl.home}>
         <img
           className={cl.header__elipse}
-          src="/images/Ellipse 23.png"
+          src="./images/Ellipse 23.png"
           alt="Абстрактное изображение"
         />
 

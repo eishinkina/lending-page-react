@@ -50,7 +50,7 @@ const MyModal = ({ visible, setVisible }) => {
           </p>
         </div>
         <div onClick={() => setVisible(false)} className={cl.myModal__outline}>
-          <img src="/images/Outline.png" alt="Закрыть" />
+          <img src="./images/Outline.png" alt="Закрыть" />
         </div>
         <form className={cl.formsStyle} onSubmit={handleSubmit}>
           <input

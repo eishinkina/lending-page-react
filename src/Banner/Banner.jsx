@@ -13,7 +13,7 @@ const Banner = () => {
           <article className={cl.main__content}>
             <img
               className={cl.image__el}
-              src="/images/Ellipse 25.png"
+              src="./images/Ellipse 25.png"
               alt="Абстрактное изображение"
             />
             <h1 className={cl.main__title}>
@@ -21,7 +21,7 @@ const Banner = () => {
               <br /> возможность войти в <b>прибыльную нишу</b>
             </h1>
             <div className={cl.man__banner}>
-              <img src="/images/MAN 1.png" alt="" />
+              <img src="./images/MAN 1.png" alt="" />
             </div>
             <p className={cl.main__text}>
               Получи все нужные <br /> навыки для заработка на NFT всего за 28 дней!
@@ -34,7 +34,7 @@ const Banner = () => {
             </button>
             <img
               className={cl.image__light2}
-              src="/images/Lightning 2.png"
+              src="./images/Lightning 2.png"
               alt="Иконка молнии"
             />
           </article>
@@ -42,32 +42,32 @@ const Banner = () => {
           <div className={cl.main__images}>
             <img
               className={cl.image__elipse}
-              src="/images/Ellipse 24.png"
+              src="./images/Ellipse 24.png"
               alt="Абстрактное изображение"
             />
             <img
               className={cl.image__man}
-              src="/images/business-3d-businessman-in-blue-suit-meditating 1.png"
+              src="./images/business-3d-businessman-in-blue-suit-meditating 1.png"
               alt="Медитирующий бизнесмен"
             />
             <img
               className={cl.image__piggy}
-              src="/images/piggy.png"
+              src="./images/piggy.png"
               alt="Копилка"
             />
             <img
               className={cl.image__money}
-              src="/images/money.png"
+              src="./images/money.png"
               alt="Деньги"
             />
             <img
               className={cl.image__smyle}
-              src="/images/image 41.png"
+              src="./images/image 41.png"
               alt="Смайлик"
             />
             <img
               className={cl.image__light1}
-              src="/images/Lightning 1.png"
+              src="./images/Lightning 1.png"
               alt="Иконка молнии"
             />
           </div>
