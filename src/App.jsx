@@ -1,11 +1,11 @@
 import React from "react";
-import Page from "./Page/Page";
+import Home from "./Home/Home"
 
 
 const App = () => {
   return (
     <>
-      <Page />
+      <Home />
     </>
   );
 };
