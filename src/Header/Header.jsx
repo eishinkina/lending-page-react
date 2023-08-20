@@ -48,6 +48,7 @@ const Header = () => {
             Личный кабинет
           </button>
         </nav>
+        <div className={cl.header__menuButton}><img src="/images/Frame 275.png" alt="" /></div>
       </header>
     </>
   );

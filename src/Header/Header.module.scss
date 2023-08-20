@@ -79,4 +79,57 @@ header {
       cursor: pointer;
     }
   }
+  .header__menuButton {
+    display: none;
+  }
+}
+@media screen and (max-width:480px) {
+  .header__container {
+    width: 320px;
+    height: 36.4px;
+    margin: 0 auto;
+  }
+
+  header {
+    display: flex;
+    justify-content: space-between;
+
+    .header__logo {
+      display: flex;
+      align-items: center;
+      z-index: 1;
+      width: 89px;
+      height: 36.4px;
+      .logo {
+        width: 27.27px;
+        height: 27.27px;
+      }
+
+      .header__name {
+        font-size: 28px;
+        margin-left: 15px;
+        width: 48.49px;
+        height: 19.26px;
+        margin-top: 8.63px;
+        margin-left: 5px;
+      }
+    }
+    .header__nav {
+      display: none;
+    }
+
+    .header__menuButton {
+      display: block;
+      width: 30px;
+      height: 30px;
+      background: none;
+      border: none;
+      cursor: pointer;
+      background-color: transparent;
+      background-size: cover;
+      align-items: center;
+      padding-top: 10px;
+      padding-right: 10px;
+    }
+  }
 }

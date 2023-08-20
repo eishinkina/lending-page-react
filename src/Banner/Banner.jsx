@@ -20,8 +20,11 @@ const Banner = () => {
               Не упусти
               <br /> возможность войти в <b>прибыльную нишу</b>
             </h1>
+            <div className={cl.man__banner}>
+              <img src="/images/MAN 1.png" alt="" />
+            </div>
             <p className={cl.main__text}>
-              Получи все нужные навыки для заработка на NFT всего за 28 дней!
+              Получи все нужные <br /> навыки для заработка на NFT всего за 28 дней!
             </p>
             <button
               onClick={() => setModalVisible(true)}
@@ -35,6 +38,7 @@ const Banner = () => {
               alt="Иконка молнии"
             />
           </article>
+
           <div className={cl.main__images}>
             <img
               className={cl.image__elipse}
