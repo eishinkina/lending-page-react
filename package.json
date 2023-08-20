@@ -2,7 +2,10 @@
   "name": "lending-page",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://eishinkina.github.io/lending-page-react",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gt-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -21,6 +24,7 @@
     ]
   },
   "dependencies": {
+    "gh-pages": "^6.0.0",
     "normalize.css": "^8.0.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
