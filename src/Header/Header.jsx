@@ -1,41 +1,50 @@
 import React, { useState } from "react";
 import MyModal from "../Modal/MyModal";
+import cl from "./Header.module.scss";
 
 const Header = () => {
   const [modalVisible, setModalVisible] = useState(false);
+
   const handleScroll = (event) => {
-    event.preventDefault(); // Предотвращаем стандартное поведение ссылки
+    event.preventDefault();
 
     const targetElement = document.querySelector(
       event.target.getAttribute("href")
     );
 
     if (targetElement) {
-      const topOffset = targetElement.offsetTop; // Определение верхней позиции элемента относительно верхнего края страницы
-      window.scrollTo({ top: topOffset, behavior: "smooth" }); // Скролл к элементу с плавной анимацией
+      const topOffset = targetElement.offsetTop;
+      window.scrollTo({ top: topOffset, behavior: "smooth" });
     }
   };
 
   return (
     <>
       <MyModal visible={modalVisible} setVisible={setModalVisible} />
-      <header className="header__container">
-        <div className="header__logo">
+      <header className={cl.header__container}>
+        <div className={cl.header__logo}>
           <img
-            className="logo"
+            className={cl.logo}
             src="/images/Ellipse 26.png"
             alt="Логотип NFT"
           />
-          <h1 className="header__name">NFT</h1>
+          <h1 className={cl.header__name}>NFT</h1>
         </div>
-        <nav className="header__nav">
-          <a className="header__link1" href="#Benefits">
+        <nav className={cl.header__nav}>
+          <a className={cl.header__link1} href="#">
             Главная
           </a>
-          <a className="header__link2" href="#Benefits" onClick={handleScroll}>
+          <a
+            className={cl.header__link2}
+            href="#Benefits"
+            onClick={handleScroll}
+          >
             Что даст обучение
           </a>
-          <button onClick={() => setModalVisible(true)} className="header__btn">
+          <button
+            onClick={() => setModalVisible(true)}
+            className={cl.header__btn}
+          >
             Личный кабинет
           </button>
         </nav>
