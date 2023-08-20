@@ -183,11 +183,10 @@
 
       .benefits__image27 {
         position: absolute;
-        width: 440.01px;
-        height: 440.01px;
-        top: 880px;
-        left: 2px;
-        display: none;
+        width: 150.41px;
+        height: 150.41px;
+        top: -50px;
+        left: 270.5px;
       }
       .benefits__image223 {
         position: absolute;
@@ -199,23 +198,22 @@
       }
       .benefits__image126 {
         position: absolute;
-        top: 100px;
-        left: 250px;
-        display: none;
-        display: none;
+        width: 21.91px;
+        top: 120px;
+        left: 70px;
       }
       .benefits__image266 {
-        margin-top: 0px;
         position: absolute;
-        top: -90px;
-        left: 1200px;
-        display: none;
+        top: -80px;
+        left: 350px;
+        width: 137.41px;
       }
       .benefits__image125 {
         position: absolute;
-        top: 800px;
-        left: 1100px;
-        display: none;
+        top: 1400px;
+        left: 330px;
+        width: 62.86px;
+        z-index: 1;
       }
 
       .benefits__title {
@@ -233,11 +231,11 @@
         z-index: 60;
       }
       .benefits__cards {
-        width: 100%; 
-        height: auto; 
+        width: 100%;
+        height: auto;
         margin-top: 50px;
         display: flex;
-        flex-direction: column; 
+        flex-direction: column;
         align-items: center;
         position: relative;
 
@@ -247,7 +245,7 @@
           width: 300px;
           height: 310px;
           border-radius: 20px;
-          
+
           margin-bottom: 20px;
           display: flex;
           flex-direction: column;
@@ -329,14 +327,13 @@
     }
   }
   .benefits__shadows {
-  position: absolute;
-  top: 60px;
-  left: 40px;
-  width: 226px;
-  height: 235px;
-  border-radius: 20px;
-  background-color: rgba(51, 62, 81, 0.6);
-  z-index: 1;
+    position: absolute;
+    top: 60px;
+    left: 40px;
+    width: 226px;
+    height: 235px;
+    border-radius: 20px;
+    background-color: rgba(51, 62, 81, 0.6);
+    z-index: 1;
+  }
 }
-}
-
