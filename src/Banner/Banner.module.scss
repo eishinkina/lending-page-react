@@ -1,0 +1,97 @@
+.main__container {
+    width: 1280px;
+    margin: 0 auto;
+    margin-bottom: 300px;
+  
+    .main {
+      display: flex;
+      position: relative;
+    }
+    .main__content {
+      position: relative;
+      width: 717px;
+  
+      .image__el {
+        position: absolute;
+        margin-top: 130px;
+        margin-left: 420px;
+      }
+      .image__light2 {
+        position: absolute;
+        margin-top: -50px;
+        margin-left: 300px;
+      }
+    }
+    .main__title {
+      margin-top: 200px;
+      font-weight: 400;
+      font-size: 72px;
+    }
+    .main__text {
+      width: 499px;
+      height: 63px;
+      font-weight: 400;
+      font-size: 23px;
+      line-height: 27.6px;
+      color: #cecece;
+    }
+    .main__btn {
+      margin-top: 50px;
+      width: 331px;
+      height: 66px;
+      border-radius: 20px;
+      padding: 20px 30px;
+      background: linear-gradient(to right, #1dd844 0%, #cbf62e 100%);
+      border: none;
+      color: black;
+      cursor: pointer;
+      font-weight: 400;
+      font-size: 20px;
+      transition: box-shadow 0.3s, cursor 0.3s;
+    }
+  
+    .main__btn:hover {
+      box-shadow: 0 0 20px rgba(203, 246, 46, 0.8); /* Увеличиваем радиус размытия и насыщенность цвета */
+      cursor: pointer;
+    }
+  }
+  
+  .main__images {
+    position: relative;
+  
+    .image__elipse {
+      position: absolute;
+      margin-top: 80px;
+      z-index: 10;
+      margin-left: -160px;
+    }
+    .image__piggy {
+      position: absolute;
+      margin-top: 250px;
+      z-index: 20;
+    }
+    .image__man {
+      position: absolute;
+      margin-left: -50px;
+      margin-top: 130px;
+      z-index: 30;
+    }
+  
+    .image__smyle {
+      position: absolute;
+      margin-left: 100px;
+      margin-top: 150px;
+      z-index: 40;
+    }
+    .image__money {
+      position: absolute;
+      z-index: 50;
+      margin-top: 380px;
+      margin-left: 350px;
+    }
+    .image__light1 {
+      position: absolute;
+      margin-left: 400px;
+      margin-top: 150px;
+    }
+  }
