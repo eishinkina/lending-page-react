@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/lending-page-react/static/css/main.d8c2dabe.css",
+    "main.css": "/lending-page-react/static/css/main.b533e0cc.css",
     "main.js": "/lending-page-react/static/js/main.58909f80.js",
     "index.html": "/lending-page-react/index.html",
-    "main.d8c2dabe.css.map": "/lending-page-react/static/css/main.d8c2dabe.css.map",
+    "main.b533e0cc.css.map": "/lending-page-react/static/css/main.b533e0cc.css.map",
     "main.58909f80.js.map": "/lending-page-react/static/js/main.58909f80.js.map"
   },
   "entrypoints": [
-    "static/css/main.d8c2dabe.css",
+    "static/css/main.b533e0cc.css",
     "static/js/main.58909f80.js"
   ]
 }
